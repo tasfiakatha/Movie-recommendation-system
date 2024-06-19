@@ -9,6 +9,7 @@
 - [Problem statement](https://github.com/tasfiakatha/Movie-recommendation-system/blob/main/README.md#problem-statement)
 - [Data source](https://github.com/tasfiakatha/Movie-recommendation-system/blob/main/README.md#data-source)
 - [Methods](https://github.com/tasfiakatha/Movie-recommendation-system/blob/main/README.md#methods)
+- [Quick look at the results](https://github.com/tasfiakatha/Movie-recommendation-system/blob/main/README.md#quick-look-at-the-results)
 
 ## Problem statement
 
@@ -28,8 +29,30 @@ I used MovieLens 25M dataset provided by GroupLens for this project. This datase
 
 **Data integration**: Combine the movie details and user ratings datasets using common identifiers (e.g., movie ID). This integration creates a comprehensive dataset that includes both movie attributes and user interactions, providing a robust foundation for analysis.
 
-**Model development**: Implement various recommendation algorithms, including collaborative filtering (user-based and item-based), content-based filtering, and hybrid approaches. These models will leverage the integrated dataset to generate personalized movie recommendations.
+**Model development**: Implement various recommendation algorithms, including collaborative filtering (user-based and item-based), content-based filtering, and Item-item Recommendations with k-Nearest Neighbors. These models will leverage the integrated dataset to generate personalized movie recommendations.
 
 **Model evaluation**: Evaluate the performance of the recommendation system using metrics such as precision, recall, and mean average precision (MAP). These metrics will help assess the accuracy and effectiveness of the recommendations, ensuring the system meets the desired standards.
+
+## Quick look at the results
+Distribution of movie ratings in the dataset
+
+![image](https://github.com/tasfiakatha/Movie-recommendation-system/assets/120822849/6576d503-6b30-4f4e-9fe6-bd08b8245ed8)
+
+Distribution of movies by genre
+
+![image](https://github.com/tasfiakatha/Movie-recommendation-system/assets/120822849/da03df44-b8ee-4a94-a7d2-45bd05134ba9)
+
+
+The Shawshank Redemption (1994), The Godfather (1972), and The Usual Suspects (1995) are the highest rated movies using bayesian average. This reflects more accurate popular movies.
+
+![image](https://github.com/tasfiakatha/Movie-recommendation-system/assets/120822849/00586c33-8007-4bb1-a5bd-9e1b7024a8ba)
+
+Battlefield Earth (2000), Gigli (2003), and Glitter (2001) are the worst rated movies with below 2.0 ratings
+
+![image](https://github.com/tasfiakatha/Movie-recommendation-system/assets/120822849/08ced426-79b1-4f20-8483-d376a4670546)
+
+Here are 10 movies that users with similar taste to those who enjoyed Toy Story (1995) have also rated highly using collaborative filtering method -
+
+![image](https://github.com/tasfiakatha/Movie-recommendation-system/assets/120822849/7766a72f-b4d3-481a-b8bd-f6ba239f34f4)
 
 
