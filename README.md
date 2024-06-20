@@ -11,6 +11,7 @@
 - [Methods](https://github.com/tasfiakatha/Movie-recommendation-system/blob/main/README.md#methods)
 - [Quick look at the results](https://github.com/tasfiakatha/Movie-recommendation-system/blob/main/README.md#quick-look-at-the-results)
 - [Explore the notebook](https://github.com/tasfiakatha/Movie-recommendation-system/blob/main/README.md#explore-the-notebook)
+- [Takeaways](https://github.com/tasfiakatha/Movie-recommendation-system/blob/main/README.md#takeaways)
 - [Contribution](https://github.com/tasfiakatha/Movie-recommendation-system/blob/main/README.md#contribution)
 - [License](https://github.com/tasfiakatha/Movie-recommendation-system/blob/main/README.md#license)
 
@@ -61,6 +62,17 @@ Here are 10 movies that users with similar taste to those who enjoyed Toy Story 
 
 ## Explore the notebook
 Explore the notebook file [here](https://nbviewer.org/github/tasfiakatha/Movie-recommendation-system/blob/main/Movie%20recommendation%20system%20project_Tasfia%20Katha.ipynb)
+
+## Takeaways
+This project investigated building a movie recommendation system utilizing three key techniques:
+
+Content-Based Filtering: This approach analyzes movie titles, leveraging Inverse Document Frequency (IDF) to emphasize unique keywords and cosine similarity to identify thematically similar movies.
+
+Collaborative Filtering: This technique focuses on user preferences. It finds users who shared a high rating (above 4 stars) for the same movie, suggesting similar tastes. Based on these similar users, the system recommends highly rated movies from their preferences.  It prioritizes movies specifically enjoyed by similar users over universally popular ones for a more personalized touch.
+
+Item-Item Recommendations with k-Nearest Neighbors (kNN): This method explores movie-to-movie similarity. By analyzing movie features (genres, length, etc.), kNN identifies the k closest neighbors (most similar movies) to a given movie. This allows the system to recommend movies that users who enjoyed the initial movie are likely to appreciate as well.
+
+By combining these techniques, the system provides a well-rounded approach. Content-based filtering offers thematic recommendations, collaborative filtering personalizes based on similar user preferences, and kNN leverages movie similarities for targeted suggestions.  This project demonstrates the power of machine learning for creating personalized movie recommendations.  Future exploration could involve incorporating richer data sources, developing hybrid models that combine all three techniques, and implementing user feedback mechanisms to continuously improve the recommendation accuracy.
 
 ## Contribution
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change or contribute.
