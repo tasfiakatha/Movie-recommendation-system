@@ -10,6 +10,9 @@
 - [Data source](https://github.com/tasfiakatha/Movie-recommendation-system/blob/main/README.md#data-source)
 - [Methods](https://github.com/tasfiakatha/Movie-recommendation-system/blob/main/README.md#methods)
 - [Quick look at the results](https://github.com/tasfiakatha/Movie-recommendation-system/blob/main/README.md#quick-look-at-the-results)
+- [Explore the notebook](https://github.com/tasfiakatha/Movie-recommendation-system/blob/main/README.md#explore-the-notebook)
+- [Contribution](https://github.com/tasfiakatha/Movie-recommendation-system/blob/main/README.md#contribution)
+- [License](https://github.com/tasfiakatha/Movie-recommendation-system/blob/main/README.md#license)
 
 ## Problem statement
 
@@ -56,3 +59,33 @@ Here are 10 movies that users with similar taste to those who enjoyed Toy Story 
 ![image](https://github.com/tasfiakatha/Movie-recommendation-system/assets/120822849/7766a72f-b4d3-481a-b8bd-f6ba239f34f4)
 
 
+## Explore the notebook
+Explore the notebook file [here](https://nbviewer.org/github/tasfiakatha/Movie-recommendation-system/blob/main/Movie%20recommendation%20system%20project_Tasfia%20Katha.ipynb)
+
+## Contribution
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change or contribute.
+
+## License
+MIT License
+
+Copyright (c) 2024 Tasfia Katha
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Learn more about [MIT](https://choosealicense.com/licenses/mit/) license
